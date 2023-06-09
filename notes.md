@@ -76,3 +76,22 @@ const styles = StyleSheet.create({
 ```
 
 Style sheet object also provide validation if you are not using correct properties or value
+
+# Layout and Flex Box:
+
+Layouts are (typically) created with FlexBox
+very simlar to css
+Elements are positioned inside of Container
+positioning is controlled via style settings applied to the elements container
+-----> Cross Axis
+|
+|
+|
+Mian Axis
+
+```
+flex : 1, --> Element (Container) should expand to occupy aviliable space...
+flexDirextion: 'column', 
+justifyContent: flex-start, --> How elements layouts in there axis
+alignment : 'flex-start',
+```
